@@ -1,0 +1,21 @@
+/* html{ 
+    background-color: red;
+}*/
+div{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 3px solid blue;
+}
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+#div2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
