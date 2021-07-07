@@ -32,11 +32,10 @@ ul {
 }
 
 /* 사이트 상단 메뉴 */
-.s1ite_top {
-    text-align: right;
+.site_top {
     height: 30px;
     background-color: #f9f9f9;
-    
+    text-align: right;
 }
 
 .site_top a {

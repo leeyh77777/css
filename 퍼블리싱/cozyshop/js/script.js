@@ -1,12 +1,12 @@
-window.onload = function(){
+window.onload = function () {
     var swiper = new Swiper(".main_banner .mySwiper", {
         navigation: {
-        nextEl: ".main_banner .swiper-button-next",
-        prevEl: ".main_banner .swiper-button-prev",
+            nextEl: ".main_banner .swiper-button-next",
+            prevEl: ".main_banner .swiper-button-prev",
         },
         pagination: {
             el: ".swiper-pagination",
-            clickable : true
-          },
+            clickable: true
+        },
     });
 };
