@@ -1,0 +1,26 @@
+12일 시험
+opacity
+    투명도(0~1)
+        0에가까울수록 투명 1에가까울수록 불투명
+box-shadow
+    요소에 그림자 효과
+    좌에서 우 위에서 아래 번짐정도 색상
+
+    box-shadow:
+
+word-break
+    break-all
+        텍스트 자동 줄 개행
+
+padding : 상단 좌우 하단
+    padding : 5px 0 10px;
+
+nth-child(4n+1)
+    4n+1 = 1, 5, 9
+
+background-size
+    cover : 배경 이미지 영역 자동 맞춤
+
+margin : 45px 0px 50px;
+
+
