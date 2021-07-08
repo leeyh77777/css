@@ -530,28 +530,41 @@ footer .customer_service_info {
   background-color: #ffffff;
   border-top: 1px solid #d5d5d5;
   border-bottom: 1px solid #d5d5d5;
+  padding: 20px 0;
 }
 
 footer .customer_service_info > .info {
   display: table;
 }
 
-footer .customer_service_info > .box {
+footer .customer_service_info .box {
   display: table-cell;
+}
+
+footer .customer_service_info .box1 {
+  width: 195px;
+}
+
+footer .customer_service_info .box4 {
+  width: 250px;
 }
 
 footer .customer_service_info .text1 {
   font-size: 16px;
-  font-weight: 500;
   font-family: Verdana;
   letter-spacing: -1px;
+  font-weight: bold;
 }
 
 footer .customer_service_info .tex2 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: bold;
   font-family: Verdana;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
+}
+
+footer .customer_service_info .box4 .tex2 {
+  font-size: 25px;
 }
 
 footer .customer_service_info .btn {
@@ -566,7 +579,11 @@ footer .customer_service_info .btn {
   line-height: 17px;
 }
 
-footer .customer_service_info btn:hover {
+footer .customer_service_info .btn:hover {
   background-color: #58595b;
   color: #ffffff;
+}
+
+footer .customer_service_info .box3 .btn:first-child {
+  margin-bottom: 3px;
 }
