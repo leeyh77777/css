@@ -1,0 +1,48 @@
+깃헙 문제시
+
+1.인터넷 익스플로러 엣지
+    gitgub.com : 로그아웃
+
+2.계정 초기화
+    git remote set-url origin https://사용자명(username)@github.com/사용자명(username)/repository명.git
+
+예)
+git remote set-url origin https://leeyh77777@github.com/leeyh77777/(css.git)<-레지토리명
+
+section
+
+article
+
+<section>
+    <article>
+    </article>
+</section>
+
+background-size
+    cover: 배경 이미지 영역 자동 맞춤
+
+margin 45px 0 50px
+
+tex-decoration :
+    underlin : 밑줄
+    none : 효과없음
+    italic
+text-indent
+    들여스기
+
+        예: text-indent : 10px (좌에서 우로 10px 만큼 들여쓰기)
+
+
+text-overflow:
+    -ellipsis (생략을 표시  ...을 추가)
+
++생략되는 글 요소가 너비를 가져야 하고
++글 개행 속성X
+white-space
+    nowrap : 줄 개행X
+    wrap 줄 개행
++overflow: hidden -> 넘치는 부분 가리기
+
+
+
+

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/* 공통 */
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    margin: 0;
+}
+
+.layout_width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* site_top */
+.site_top {
+ text-align: right;
+ height: 30px;
+ color: #000000;
+ background-color: #f9f9f9;
+}
+
+.site_top a {
+	font-size: 12px; 
+	letter-spacing: -0.24px;
+	color: #333333;
+	padding: 0 10px 0 11px;
+	line-height: 30px;
+	position: relative;
+	display: inline-block;
+}
+
+.site_top .bar {
+    display: inline-block;
+    width: 1px;
+    height: 9px;
+    background-color: #333333;
+    position: relative;
+    top: 1px;
+}
+
+/* logo_search */
+.logo_search .box {
+    width: calc(100% / 3);
+    float: left;
+    vertical-align: middle;
+    height: 120px;
+}
+
+.logo_search .inner:after {
+    clear: left;
+    content: '';
+    display: block;
+}
+
+.logo_search .icon img {
+    vertical-align: top;
+}
+
+.logo_search .icon a:nth-child(1) img {
+    height: 62px;
+    position: relative;
+    top: 4px;
+}
+
+.logo_search .icon a:nth-child(2) img,
+.logo_search .icon a:nth-child(3) img {
+    height: 68px;
+}
+
+.logo_search .logo {
+    text-align: center;
+    padding: 46px 0;
+}
+
+.logo_search .logo img {
+    height: 28px;
+}
+
+.logo_search .search {
+    padding-top: 40px;
+    text-align: right;
+    
+}
+
+.logo_search .search .form_wrap {
+    width: 200px;
+    height: 38px;    
+    border-bottom: 1px solid #222222;
+    float: right;
+}
+
+.logo_search .search input[type="image"] {
+    height: 37px;
+    vertical-align: middle;
+}
+
+.logo_search .search input[type="text"] {
+    display: none;
+}
+
+/* 메인 메뉴 */
+nav {
+    border-bottom: 1px solid #000000;
+}
+
+nav .main_menu {
+    display: table;
+    height: 46px;
+    line-height: 46px;
+}
+
+nav .main_menu li {
+    display: table-cell;
+}
+
+nav .main_menu i {
+    height: 29px;
+    font-size: 30px;
+    top: 6px;
+}
+
+nav .main_menu li a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+main .main_banner {
+    height: 600px;
+}
